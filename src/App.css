@@ -84,4 +84,7 @@ button{
   .outerContain{
     width: 23rem;
   }
+  input{
+    width: 8rem;
+  }
 }
