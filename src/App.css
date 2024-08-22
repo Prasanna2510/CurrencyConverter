@@ -1,0 +1,87 @@
+body{
+  background-color: rgb(18, 98, 136);
+}
+.upperContain{
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3rem;
+  text-align: center;
+}
+.outerContain{
+  width: 30rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(57, 56, 56, 0.799);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 2px rgb(136, 136, 136);
+  text-align: center;
+}
+.innerContain{
+  background-color: white;
+  margin:1rem;
+  border-radius: 5px;
+  padding: .5rem 0;
+}
+.index{
+  display: flex;
+  justify-content: space-between;
+}
+.input{
+  display: flex;
+  box-sizing: border-box;
+}
+input{
+  text-align: right;
+  flex-grow: 1;
+  font-size: 20px;
+  font-family: Polysans, sans-serif;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding-right: .5rem;
+}
+span{
+  font-size: 15px;
+  font-family: Polysans, sans-serif;
+  font-weight: 600;
+  color: rgb(39, 39, 39);
+  margin: .5rem;
+}
+select{
+  margin: .5rem;
+  font-size: 18px;
+  font-family: Polysans, sans-serif;
+  font-weight: 500;
+  padding: 5px;
+  outline: none;
+  border: 1px solid rgb(0, 56, 72);
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 5px 1px rgb(0, 56, 72);
+  width: 4rem;
+}
+.negBotMar{
+  margin-bottom: -.5rem;
+}
+.negTopMar{
+  margin-top: -.5rem;
+}
+button{
+  z-index: 1;
+  padding: .5rem;
+  font-size: 18px;
+  font-family: Polysans, sans-serif;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(18, 98, 136);
+  color: white;
+}
+@media screen and (max-width:575px) {
+  .outerContain{
+    width: 23rem;
+  }
+}
