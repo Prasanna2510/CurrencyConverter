@@ -53,7 +53,7 @@ function App() {
         <button onClick={swap}>switch 💱</button>
         <div className='innerContain negTopMar'>
           <div className='index'>
-            <span>Currencys</span>
+            <span>Currency</span>
             <span>To</span>
           </div>
           <div className='input'>
